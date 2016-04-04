@@ -349,7 +349,7 @@ top_srcdir = @top_srcdir@
 lib_LTLIBRARIES = libmod_math.la
 libmod_math_la_SOURCES = mod_math.c
 libmod_math_la_CFLAGS = $(COMMON_CFLAGS) -I$(BGD_PATH)/include
-libmod_math_la_LDFLAGS = -s -module -no-undefined -avoid-version
+libmod_math_la_LDFLAGS = -s -dynamiclib -no-undefined -avoid-version
 libmod_math_la_LIBADD = $(COMMON_LDFLAGS) -lm
 CLEANFILES = libmod_math.la
 all: all-am

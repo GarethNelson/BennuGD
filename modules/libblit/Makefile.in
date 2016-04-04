@@ -349,7 +349,7 @@ top_srcdir = @top_srcdir@
 lib_LTLIBRARIES = libblit.la
 libblit_la_SOURCES = libblit.c g_blit.c g_pixel.c
 libblit_la_CFLAGS = $(COMMON_CFLAGS) $(SDL_CFLAGS) -I$(BGD_PATH)/include -I$(BGD_PATH)/bgdrtm/include -I. -I../libgrbase/
-libblit_la_LDFLAGS = -s -module -no-undefined -avoid-version
+libblit_la_LDFLAGS = -s -dynamiclib -no-undefined -avoid-version
 libblit_la_LIBADD = $(COMMON_LDFLAGS) $(SDL_LIBS) -L$(BGD_PATH)/bgdrtm/src/.libs -lbgdrtm -L../libgrbase/.libs -lgrbase
 CLEANFILES = libblit.la
 all: all-am

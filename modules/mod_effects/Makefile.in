@@ -349,7 +349,7 @@ top_srcdir = @top_srcdir@
 lib_LTLIBRARIES = libmod_effects.la
 libmod_effects_la_SOURCES = mod_effects.c
 libmod_effects_la_CFLAGS = $(COMMON_CFLAGS) -I$(BGD_PATH)/include -I. -I../libgrbase/
-libmod_effects_la_LDFLAGS = -s -module -no-undefined -avoid-version
+libmod_effects_la_LDFLAGS = -s -dynamiclib -no-undefined -avoid-version
 libmod_effects_la_LIBADD = $(COMMON_LDFLAGS) -L$(BGD_PATH)/bgdrtm/src/.libs -L../libgrbase/.libs -lgrbase
 CLEANFILES = libmod_effects.la
 all: all-am

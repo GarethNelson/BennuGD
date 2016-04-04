@@ -348,7 +348,7 @@ top_srcdir = @top_srcdir@
 lib_LTLIBRARIES = libmod_dir.la
 libmod_dir_la_SOURCES = mod_dir.c
 libmod_dir_la_CFLAGS = $(COMMON_CFLAGS) -I$(BGD_PATH)/include
-libmod_dir_la_LDFLAGS = -s -module -no-undefined -avoid-version
+libmod_dir_la_LDFLAGS = -s -dynamiclib -no-undefined -avoid-version
 libmod_dir_la_LIBADD = $(COMMON_LDFLAGS) -L$(BGD_PATH)/bgdrtm/src/.libs -lbgdrtm
 CLEANFILES = libmod_dir.la
 all: all-am

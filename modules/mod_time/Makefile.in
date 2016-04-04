@@ -350,7 +350,7 @@ top_srcdir = @top_srcdir@
 lib_LTLIBRARIES = libmod_time.la
 libmod_time_la_SOURCES = mod_time.c
 libmod_time_la_CFLAGS = $(COMMON_CFLAGS) $(SDL_CFLAGS) -I$(BGD_PATH)/include
-libmod_time_la_LDFLAGS = -s -module -no-undefined -avoid-version
+libmod_time_la_LDFLAGS = -s -dynamiclib -no-undefined -avoid-version
 libmod_time_la_LIBADD = $(COMMON_LDFLAGS) $(SDL_LIBS) -L$(BGD_PATH)/bgdrtm/src/.libs -lbgdrtm
 CLEANFILES = libmod_time.la
 all: all-am

@@ -349,7 +349,7 @@ top_srcdir = @top_srcdir@
 lib_LTLIBRARIES = libmod_scroll.la
 libmod_scroll_la_SOURCES = mod_scroll.c
 libmod_scroll_la_CFLAGS = $(COMMON_CFLAGS) $(SDL_CFLAGS) -I$(BGD_PATH)/include -I$(BGD_PATH)/bgdrtm/include -I../libscroll -I../libvideo -I../libgrbase/
-libmod_scroll_la_LDFLAGS = -s -module -no-undefined -avoid-version
+libmod_scroll_la_LDFLAGS = -s -dynamiclib -no-undefined -avoid-version
 libmod_scroll_la_LIBADD = $(COMMON_LDFLAGS) -L../libscroll/.libs -lscroll
 CLEANFILES = libmod_scroll.la
 all: all-am

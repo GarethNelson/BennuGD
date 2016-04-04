@@ -28,7 +28,7 @@ cd ..
 
 echo "### Copying files to bin folder ###"
 TARGET=macosx
-mkdir -p bin/$TARGETx 2>/dev/null
+mkdir -p bin/$TARGET 2>/dev/null
 cp core/bgdi/src/.libs/bgdi bin/$TARGET
 cp core/bgdc/src/bgdc bin/$TARGET
 cp core/bgdrtm/src/.libs/libbgdrtm.so bin/$TARGET

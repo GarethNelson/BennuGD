@@ -24,7 +24,7 @@ cd tools/moddesc
 ./configure
 make clean
 make
-cd ..
+cd ../..
 
 echo "### Copying files to bin folder ###"
 TARGET=macosx

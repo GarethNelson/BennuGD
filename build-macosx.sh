@@ -34,6 +34,7 @@ cp core/bgdc/src/bgdc bin/$TARGET
 cp core/bgdrtm/src/.libs/libbgdrtm.dylib bin/$TARGET
 cp $(find modules -name '*.dylib') bin/$TARGET
 cp tools/moddesc/moddesc bin/$TARGET
+install_name_tool -change /usr/local/lib/libbgdrtm.dylib @executable_path/libbgdrtm.dylib bin/macosx/bgdi
 
 echo "### Build done! ###"
 

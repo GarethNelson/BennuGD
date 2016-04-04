@@ -1,0 +1,940 @@
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+dcbr.c:189:31: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+1 warning generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+sysprocs.c:458:21: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+../../include/loadlib.h:84:12: warning: unused function 'dlibclose' [-Wunused-function]
+2 warnings generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+copy.c:207:30: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+copy.c:207:51: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+copy.c:207:72: warning: cast to 'DCB_TYPEDEF *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+copy.c:212:13: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+copy.c:212:34: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+copy.c:212:13: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+copy.c:221:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+copy.c:221:43: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+copy.c:222:22: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+9 warnings generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+interpreter.c:240:66: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+interpreter.c:281:67: warning: format specifies type 'unsigned int' but the argument has type 'long' [-Wformat]
+interpreter.c:283:53: warning: format specifies type 'unsigned int' but the argument has type 'long' [-Wformat]
+interpreter.c:590:37: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:653:37: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:755:37: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:760:37: warning: cast to 'uint16_t *' (aka 'unsigned short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:855:38: warning: cast to 'int8_t *' (aka 'signed char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:860:38: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1329:22: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1330:18: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1331:30: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1339:34: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1340:20: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1346:34: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1347:20: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1462:18: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1471:18: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1481:20: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1488:20: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1495:20: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1501:20: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1507:20: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1508:37: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1514:19: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1515:37: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1521:18: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1528:18: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1535:18: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1547:18: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1559:18: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1566:18: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1573:18: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1580:18: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1586:18: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1592:18: warning: cast to 'uint32_t *' (aka 'unsigned int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1598:18: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1604:18: warning: cast to 'uint32_t *' (aka 'unsigned int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1613:20: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1620:20: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1627:20: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1633:20: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1639:20: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1640:37: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1646:19: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1647:37: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1653:18: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1660:18: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1667:18: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1679:18: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1691:18: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1698:18: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1705:18: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1712:18: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1718:18: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1724:18: warning: cast to 'uint16_t *' (aka 'unsigned short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1730:18: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1736:18: warning: cast to 'uint16_t *' (aka 'unsigned short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1745:20: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1752:20: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1759:20: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1765:20: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1771:20: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1772:37: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1778:19: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1779:37: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1785:18: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1792:18: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1799:18: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1811:18: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1823:18: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1830:18: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1837:18: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1844:18: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1850:18: warning: cast to 'int8_t *' (aka 'signed char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1856:18: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1862:18: warning: cast to 'int8_t *' (aka 'signed char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1868:18: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1876:20: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1882:20: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1888:20: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1893:20: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1898:20: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1899:37: warning: cast to 'uint32_t *' (aka 'unsigned int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1904:19: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1905:37: warning: cast to 'uint32_t *' (aka 'unsigned int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1910:18: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1916:18: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1922:18: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:1928:18: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+90 warnings generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+../../common/xctype.c:157:43: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+../../common/xctype.c:158:68: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+../../common/xctype.c:159:43: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+../../common/xctype.c:160:68: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+../../common/xctype.c:173:42: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+../../common/xctype.c:174:19: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+6 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+main.c:125:41: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+1 warning generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+token.c:1409:21: warning: assigning to 'char *' from 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+1 warning generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+c_main.c:530:27: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+../../include/loadlib.h:57:15: warning: unused function 'dliberror' [-Wunused-function]
+../../include/loadlib.h:84:12: warning: unused function 'dlibclose' [-Wunused-function]
+3 warnings generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+c_data.c:160:17: warning: function 'get_basetype' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+1 warning generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+c_code.c:2148:20: warning: comparison of constant 1024 with expression of type 'BASETYPE' is always false [-Wtautological-constant-out-of-range-compare]
+1 warning generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+../../common/xctype.c:157:43: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+../../common/xctype.c:158:68: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+../../common/xctype.c:159:43: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+../../common/xctype.c:160:68: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+../../common/xctype.c:173:42: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+../../common/xctype.c:174:19: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+6 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: argument unused during compilation: '-finline-functions'
+main.c:205:49: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+main.c:76:66: warning: unused variable 'ext' [-Wunused-variable]
+2 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+g_bitmap.c:274:16: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+1 warning generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+g_blit.c:2352:41: warning: incompatible pointer types passing 'int (const VERTEX *, const VERTEX *)' to parameter of type 'int (*)(const void *, const void *)' [-Wincompatible-pointer-types]
+1 warning generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+g_instance.c:63:20: warning: cast to 'int *' from smaller integer type 'uint32_t' (aka 'unsigned int') [-Wint-to-pointer-cast]
+g_instance.c:166:28: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+g_instance.c:172:32: warning: cast to 'PALETTE *' (aka 'struct _palette *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+g_instance.c:207:11: warning: cast to 'GRAPH *' (aka 'struct _bitmap *') from smaller integer type 'uint32_t' (aka 'unsigned int') [-Wint-to-pointer-cast]
+g_instance.c:226:28: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+g_instance.c:232:32: warning: cast to 'PALETTE *' (aka 'struct _palette *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+g_instance.c:393:99: warning: incompatible pointer types passing 'int (INSTANCE *, REGION *, int *, int *)' to parameter of type 'OBJ_INFO *' (aka 'int (*)(void *, REGION *, int *, int *)') [-Wincompatible-pointer-types]
+g_instance.c:393:119: warning: incompatible pointer types passing 'void (INSTANCE *, REGION *)' to parameter of type 'OBJ_DRAW *' (aka 'void (*)(void *, REGION *)') [-Wincompatible-pointer-types]
+8 warnings generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+g_object.c:202:23: warning: cast to 'OBJECT *' (aka 'struct _object *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+1 warning generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+libtext.c:438:62: warning: incompatible pointer types passing 'int (TEXT *, REGION *, int *, int *)' to parameter of type 'OBJ_INFO *' (aka 'int (*)(void *, REGION *, int *, int *)') [-Wincompatible-pointer-types]
+libtext.c:438:73: warning: incompatible pointer types passing 'void (TEXT *, REGION *)' to parameter of type 'OBJ_DRAW *' (aka 'void (*)(void *, REGION *)') [-Wincompatible-pointer-types]
+2 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+libmouse.c:445:50: warning: incompatible pointer types passing 'int (INSTANCE *, REGION *, int *, int *)' to parameter of type 'OBJ_INFO *' (aka 'int (*)(void *, REGION *, int *, int *)') [-Wincompatible-pointer-types]
+libmouse.c:445:62: warning: incompatible pointer types passing 'void (INSTANCE *, REGION *)' to parameter of type 'OBJ_DRAW *' (aka 'void (*)(void *, REGION *)') [-Wincompatible-pointer-types]
+2 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+libscroll.c:149:55: warning: incompatible pointer types passing 'int (int, REGION *, int *, int *)' to parameter of type 'OBJ_INFO *' (aka 'int (*)(void *, REGION *, int *, int *)') [-Wincompatible-pointer-types]
+libscroll.c:149:68: warning: incompatible pointer types passing 'void (int, REGION *)' to parameter of type 'OBJ_DRAW *' (aka 'void (*)(void *, REGION *)') [-Wincompatible-pointer-types]
+libscroll.c:149:81: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'void *' [-Wint-conversion]
+3 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+bgload.c:51:13: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_map.c:130:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:131:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:140:6: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:141:6: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:348:12: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+mod_map.c:354:12: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+mod_map.c:360:13: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+mod_map.c:366:13: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+mod_map.c:430:51: warning: cast to 'PALETTE *' (aka 'struct _palette *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:449:20: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:472:42: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:480:42: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:503:32: warning: cast to 'PALETTE *' (aka 'struct _palette *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:519:28: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:519:48: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:519:68: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:527:29: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:527:49: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:527:69: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:527:89: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:549:45: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:549:65: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:549:85: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:557:46: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:557:66: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:557:86: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:557:106: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:584:39: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:584:59: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:584:79: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:593:40: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:593:60: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:593:80: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:593:100: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:649:28: warning: cast to 'PALETTE *' (aka 'struct _palette *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:656:17: warning: cast to 'PALETTE *' (aka 'struct _palette *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:672:17: warning: cast to 'PALETTE *' (aka 'struct _palette *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:680:50: warning: cast to 'PALETTE *' (aka 'struct _palette *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:703:59: warning: cast to 'PALETTE *' (aka 'struct _palette *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:715:45: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:727:23: warning: cast to 'PALETTE *' (aka 'struct _palette *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:727:73: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:736:22: warning: cast to 'PALETTE *' (aka 'struct _palette *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_map.c:736:72: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+44 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_screen.c:117:26: warning: cast to 'scrolldata *' (aka 'struct _scrolldata *') from smaller integer type 'int32_t' (aka 'int') [-Wint-to-pointer-cast]
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_blendop.c:83:25: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_blendop.c:107:26: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_blendop.c:126:16: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_blendop.c:145:16: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_blendop.c:175:21: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_blendop.c:198:24: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_blendop.c:222:21: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_blendop.c:242:16: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_blendop.c:270:16: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+9 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_text.c:102:23: warning: cast to 'DCB_TYPEDEF *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_text.c:103:15: warning: cast to 'DCB_TYPEDEF *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_text.c:160:98: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_text.c:161:73: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_text.c:185:73: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_text.c:192:85: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_text.c:202:73: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_text.c:209:85: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_text.c:219:73: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_text.c:226:85: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+10 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_draw.c:253:32: warning: incompatible pointer types passing 'int (DRAWING_OBJECT *, REGION *, int *, int *)' to parameter of type 'OBJ_INFO *' (aka 'int (*)(void *, REGION *, int *, int *)') [-Wincompatible-pointer-types]
+mod_draw.c:253:54: warning: incompatible pointer types passing 'void (DRAWING_OBJECT *, REGION *)' to parameter of type 'OBJ_DRAW *' (aka 'void (*)(void *, REGION *)') [-Wincompatible-pointer-types]
+mod_draw.c:277:27: warning: cast to 'DRAWING_OBJECT *' (aka 'struct _drawing_object *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_draw.c:323:27: warning: cast to 'DRAWING_OBJECT *' (aka 'struct _drawing_object *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+4 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_grproc.c:399:6: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_grproc.c:400:6: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_grproc.c:564:26: warning: cast to 'scrolldata *' (aka 'struct _scrolldata *') from smaller integer type 'int32_t' (aka 'int') [-Wint-to-pointer-cast]
+3 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_effects.c:128:18: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_dir.c:247:36: warning: cast to '__DIR_ST *' (aka 'struct __DIR_ST *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_dir.c:260:28: warning: cast to '__DIR_ST *' (aka 'struct __DIR_ST *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+2 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_file.c:55:33: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_file.c:55:54: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_file.c:74:33: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_file.c:74:54: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_file.c:96:16: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:102:22: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:102:43: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_file.c:102:64: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_file.c:107:22: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:107:43: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_file.c:107:64: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_file.c:112:22: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:112:43: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_file.c:117:23: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:117:44: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_file.c:122:22: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:127:17: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:133:21: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:138:23: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:143:22: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:149:23: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:150:51: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:164:25: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_file.c:214:21: warning: cast to 'file *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+24 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_crypt.c:41:47: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:48:20: warning: cast to 'crypt_handle *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:72:23: warning: cast to 'crypt_handle *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:72:53: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:72:75: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:79:23: warning: cast to 'crypt_handle *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:79:53: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:79:75: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:87:50: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:88:22: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:88:44: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:98:50: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:99:22: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_crypt.c:99:44: warning: cast to 'char *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+14 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_joy.c:194:42: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_joy.c:194:61: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_joy.c:201:32: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_joy.c:201:53: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_joy.c:201:74: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_joy.c:316:62: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_joy.c:316:83: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_joy.c:323:52: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_joy.c:323:73: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_joy.c:323:94: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+10 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_math.c:153:12: warning: 'finite' is deprecated: first deprecated in OS X 10.9 [-Wdeprecated-declarations]
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_mathi.c:135:12: warning: 'finite' is deprecated: first deprecated in OS X 10.9 [-Wdeprecated-declarations]
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_mem.c:198:21: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_mem.c:198:42: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_mem.c:203:13: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_mem.c:203:34: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_mem.c:203:13: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_mem.c:209:12: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_mem.c:209:33: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_mem.c:209:12: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_mem.c:215:12: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_mem.c:215:12: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_mem.c:221:22: warning: cast to 'uint16_t *' (aka 'unsigned short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_mem.c:231:22: warning: cast to 'uint32_t *' (aka 'unsigned int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_mem.c:251:28: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_mem.c:256:10: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+14 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_proc.c:113:13: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+mod_proc.c:130:13: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+2 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_regex.c:88:23: warning: implicit truncation from 'int' to bitfield changes value from 16 to 0 [-Wbitfield-constant-conversion]
+mod_regex.c:176:23: warning: implicit truncation from 'int' to bitfield changes value from 16 to 0 [-Wbitfield-constant-conversion]
+mod_regex.c:311:26: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_regex.c:328:23: warning: implicit truncation from 'int' to bitfield changes value from 16 to 0 [-Wbitfield-constant-conversion]
+mod_regex.c:378:26: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+5 warnings generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+regex.c:2853:33: warning: expression which evaluates to zero treated as a null pointer constant of type 'regoff_t *' (aka 'int *') [-Wnon-literal-null-conversion]
+regex.c:3790:19: warning: cast to 'fail_stack_elt_t' (aka 'const unsigned char *') from smaller integer type 'unsigned int' [-Wint-to-pointer-cast]
+regex.c:3790:19: warning: cast to 'fail_stack_elt_t' (aka 'const unsigned char *') from smaller integer type 'unsigned int' [-Wint-to-pointer-cast]
+regex.c:3937:11: warning: cast to 'fail_stack_elt_t' (aka 'const unsigned char *') from smaller integer type 'unsigned int' [-Wint-to-pointer-cast]
+regex.c:3937:11: warning: cast to 'fail_stack_elt_t' (aka 'const unsigned char *') from smaller integer type 'unsigned int' [-Wint-to-pointer-cast]
+regex.c:3990:11: warning: cast to 'fail_stack_elt_t' (aka 'const unsigned char *') from smaller integer type 'unsigned int' [-Wint-to-pointer-cast]
+regex.c:3990:11: warning: cast to 'fail_stack_elt_t' (aka 'const unsigned char *') from smaller integer type 'unsigned int' [-Wint-to-pointer-cast]
+regex.c:4129:11: warning: cast to 'fail_stack_elt_t' (aka 'const unsigned char *') from smaller integer type 'unsigned int' [-Wint-to-pointer-cast]
+regex.c:4129:11: warning: cast to 'fail_stack_elt_t' (aka 'const unsigned char *') from smaller integer type 'unsigned int' [-Wint-to-pointer-cast]
+regex.c:4142:11: warning: cast to 'fail_stack_elt_t' (aka 'const unsigned char *') from smaller integer type 'unsigned int' [-Wint-to-pointer-cast]
+regex.c:4142:11: warning: cast to 'fail_stack_elt_t' (aka 'const unsigned char *') from smaller integer type 'unsigned int' [-Wint-to-pointer-cast]
+11 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_sort.c:302:28: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_sort.c:303:28: warning: cast to 'DCB_TYPEDEF *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sort.c:357:28: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_sort.c:358:28: warning: cast to 'DCB_TYPEDEF *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sort.c:363:32: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_sort.c:364:32: warning: cast to 'DCB_TYPEDEF *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sort.c:425:28: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_sort.c:426:28: warning: cast to 'DCB_TYPEDEF *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sort.c:483:28: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_sort.c:484:28: warning: cast to 'DCB_TYPEDEF *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sort.c:489:32: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+mod_sort.c:490:32: warning: cast to 'DCB_TYPEDEF *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sort.c:599:21: warning: cast to 'uint8_t *' (aka 'unsigned char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+13 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_sound.c:29:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+mod_sound.c:265:36: warning: cast to 'Mix_Music *' (aka 'struct _Mix_Music *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sound.c:293:60: warning: cast to 'Mix_Music *' (aka 'struct _Mix_Music *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sound.c:340:23: warning: cast to 'Mix_Music *' (aka 'struct _Mix_Music *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sound.c:519:79: warning: cast to 'Mix_Chunk *' (aka 'struct Mix_Chunk *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sound.c:541:50: warning: cast to 'Mix_Chunk *' (aka 'struct Mix_Chunk *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sound.c:666:43: warning: cast to 'Mix_Chunk *' (aka 'struct Mix_Chunk *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sound.c:959:14: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sound.c:1304:14: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+9 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_string.c:251:21: warning: while loop has empty body [-Wempty-body]
+mod_string.c:251:21: note: put the semicolon on a separate line to silence this warning
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_sys.c:66:46: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_sys.c:79:27: warning: passing 'const char **' to parameter of type 'char *const *' discards qualifiers in nested pointer types [-Wincompatible-pointer-types-discards-qualifiers]
+2 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_path.c:379:21: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_path.c:379:41: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+2 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_debug.c:341:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:347:28: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:362:22: warning: illegal character encoding in character literal [-Winvalid-source-encoding]
+mod_debug.c:450:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:592:13: warning: '__builtin___snprintf_chk' will always overflow destination buffer [-Wbuiltin-memcpy-chk-size]
+mod_debug.c:596:13: warning: '__builtin___snprintf_chk' will always overflow destination buffer [-Wbuiltin-memcpy-chk-size]
+mod_debug.c:600:13: warning: '__builtin___snprintf_chk' will always overflow destination buffer [-Wbuiltin-memcpy-chk-size]
+mod_debug.c:605:17: warning: '__builtin___snprintf_chk' will always overflow destination buffer [-Wbuiltin-memcpy-chk-size]
+mod_debug.c:607:17: warning: '__builtin___snprintf_chk' will always overflow destination buffer [-Wbuiltin-memcpy-chk-size]
+mod_debug.c:611:13: warning: '__builtin___snprintf_chk' will always overflow destination buffer [-Wbuiltin-memcpy-chk-size]
+mod_debug.c:615:13: warning: '__builtin___snprintf_chk' will always overflow destination buffer [-Wbuiltin-memcpy-chk-size]
+mod_debug.c:619:13: warning: '__builtin___snprintf_chk' will always overflow destination buffer [-Wbuiltin-memcpy-chk-size]
+mod_debug.c:623:13: warning: '__builtin___snprintf_chk' will always overflow destination buffer [-Wbuiltin-memcpy-chk-size]
+mod_debug.c:627:13: warning: '__builtin___snprintf_chk' will always overflow destination buffer [-Wbuiltin-memcpy-chk-size]
+mod_debug.c:631:13: warning: '__builtin___snprintf_chk' will always overflow destination buffer [-Wbuiltin-memcpy-chk-size]
+mod_debug.c:969:22: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:997:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1008:30: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1023:30: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1062:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1070:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1080:22: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1108:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1119:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1126:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1140:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1162:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1176:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1182:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1188:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1221:30: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1228:30: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1262:30: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1296:30: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1308:45: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1312:45: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1323:53: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1355:53: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1437:22: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1442:35: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1442:74: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1485:30: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1491:43: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1491:85: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1507:22: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1528:22: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1529:22: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1536:30: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1540:58: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1541:58: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1542:58: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1543:58: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1544:58: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1553:39: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1555:48: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1587:45: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1594:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1596:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1601:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1603:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1621:45: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1635:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1637:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1642:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1644:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1695:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1716:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1724:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1760:25: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1822:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1827:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1844:42: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1849:42: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1863:42: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1866:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1879:42: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1882:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1893:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1900:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1907:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1914:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1930:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1935:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1950:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:1955:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2007:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2026:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2053:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2061:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2072:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2077:30: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2091:41: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2114:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2120:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2136:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2147:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2151:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2178:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2213:58: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2226:50: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2230:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2234:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2279:39: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2311:26: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2337:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2348:38: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2087:21: warning: variable 'nn' is uninitialized when used here [-Wuninitialized]
+mod_debug.c:2081:19: note: initialize the variable 'nn' to silence this warning
+mod_debug.c:2472:42: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2484:42: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2496:42: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2714:44: warning: illegal character encoding in character literal [-Winvalid-source-encoding]
+mod_debug.c:2740:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2740:50: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2751:34: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2751:50: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2775:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2775:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2775:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2775:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2775:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2775:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2775:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2777:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2777:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2777:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2777:57: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2782:53: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2782:53: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2782:53: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2782:53: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2782:53: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2782:53: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+mod_debug.c:2866:42: warning: incompatible pointer types passing 'int (INSTANCE *, REGION *, int *, int *)' to parameter of type 'OBJ_INFO *' (aka 'int (*)(void *, REGION *, int *, int *)') [-Wincompatible-pointer-types]
+mod_debug.c:2866:56: warning: incompatible pointer types passing 'void (INSTANCE *, REGION *)' to parameter of type 'OBJ_DRAW *' (aka 'void (*)(void *, REGION *)') [-Wincompatible-pointer-types]
+177 warnings generated.
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+systexts.c:997:114: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+systexts.c:997:132: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+systexts.c:997:18: warning: initializing 'uint8_t *' (aka 'unsigned char *') with an expression of type 'char [105]' converts between pointers to integer types with different sign [-Wpointer-sign]
+systexts.c:1080:22: warning: illegal character encoding in character literal [-Winvalid-source-encoding]
+4 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_flic.c:216:37: warning: incompatible pointer types passing 'int (FLIC *, REGION *, int *, int *)' to parameter of type 'OBJ_INFO *' (aka 'int (*)(void *, REGION *, int *, int *)') [-Wincompatible-pointer-types]
+mod_flic.c:216:47: warning: incompatible pointer types passing 'void (FLIC *, REGION *)' to parameter of type 'OBJ_DRAW *' (aka 'void (*)(void *, REGION *)') [-Wincompatible-pointer-types]
+mod_flic.c:716:16: warning: cast to 'FLIC *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:722:19: warning: cast to 'FLIC *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:728:13: warning: cast to 'FLIC *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:728:53: warning: cast to 'FLIC *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:733:19: warning: cast to 'FLIC *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:747:19: warning: cast to 'FLIC *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:757:6: warning: cast to 'FLIC *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:764:6: warning: cast to 'FLIC *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:771:6: warning: cast to 'FLIC *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:778:6: warning: cast to 'FLIC *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:785:19: warning: cast to 'FLIC *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:787:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:787:36: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:788:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:788:36: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:789:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:789:36: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:790:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:790:36: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:791:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:791:36: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:792:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:792:36: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:793:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:793:36: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:794:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:794:36: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:795:10: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+mod_flic.c:795:36: warning: cast to 'int *' from smaller integer type 'int' [-Wint-to-pointer-cast]
+31 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '-finline-functions'
+mod_m7.c:887:46: warning: incompatible pointer types passing 'int (int, REGION *, int *, int *)' to parameter of type 'OBJ_INFO *' (aka 'int (*)(void *, REGION *, int *, int *)') [-Wincompatible-pointer-types]
+mod_m7.c:887:58: warning: incompatible pointer types passing 'void (int, REGION *)' to parameter of type 'OBJ_DRAW *' (aka 'void (*)(void *, REGION *)') [-Wincompatible-pointer-types]
+mod_m7.c:887:70: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'void *' [-Wint-conversion]
+3 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/lib'
+/Users/gareth/BennuGD/tools/moddesc/../../core/include/loadlib.h:57:15: warning: unused function 'dliberror' [-Wunused-function]
+/Users/gareth/BennuGD/tools/moddesc/../../core/include/loadlib.h:84:12: warning: unused function 'dlibclose' [-Wunused-function]
+2 warnings generated.

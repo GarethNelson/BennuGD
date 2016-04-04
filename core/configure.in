@@ -110,7 +110,7 @@ AC_PROG_CC
 if test "x$enable_debug" = "xyes"; then
     CFLAGS+=" -g $INCLUDES"
 else
-    CFLAGS+=" -finline-functions -fno-strict-aliasing $INCLUDES"
+    CFLAGS+="  -fno-strict-aliasing $INCLUDES"
 fi
 
 if test "x$enable_static" = "xyes"; then

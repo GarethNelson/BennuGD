@@ -31,8 +31,8 @@ TARGET=macosx
 mkdir -p bin/$TARGET 2>/dev/null
 cp core/bgdi/src/.libs/bgdi bin/$TARGET
 cp core/bgdc/src/bgdc bin/$TARGET
-cp core/bgdrtm/src/.libs/libbgdrtm.so bin/$TARGET
-cp $(find modules -name '*.so') bin/$TARGET
+cp core/bgdrtm/src/.libs/libbgdrtm.dylib bin/$TARGET
+cp $(find modules -name '*.dylib') bin/$TARGET
 cp tools/moddesc/moddesc bin/$TARGET
 
 echo "### Build done! ###"

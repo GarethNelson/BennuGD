@@ -186,7 +186,7 @@ int dcb_load( const char * filename )
         exit( 1 );
     }
 
-    return dcb_load_from( fp, filename, 0 );
+    return dcb_load_from( fp, (char *)filename, 0 );
 }
 
 /* ---------------------------------------------------------------------- */

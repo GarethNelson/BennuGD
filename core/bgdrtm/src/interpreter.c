@@ -235,7 +235,7 @@ int instance_go( INSTANCE * r )
 
     if ( debug > 0 )
     {
-        printf( "\n>>> Instance:%s ProcID:%d StackUsed:%d/%d\n", r->proc->name,
+        printf( "\n>>> Instance:%s ProcID:%u StackUsed:%ld/%d\n", r->proc->name,
                                                                  LOCDWORD( r, PROCESS_ID ),
                                                                  ( r->stack_ptr - r->stack ) / sizeof( r->stack[0] ),
                                                                  ( r->stack[0] & ~STACK_RETURN_VALUE )
@@ -278,9 +278,9 @@ int instance_go( INSTANCE * r )
             if ( debug > 2 )
             {
                 int c = 45 - stack_dump( r ) * 9;
-                if ( debug > 1 ) printf( "%*.*s[%4u] ", c, c, "", ( ptr - r->code ) ) ;
+                if ( debug > 1 ) printf( "%*.*s[%ld] ", c, c, "", ( ptr - r->code ) ) ;
             }
-            else if ( debug > 1 ) printf( "[%4u] ", ( ptr - r->code ) ) ;
+            else if ( debug > 1 ) printf( "[%ld] ", ( ptr - r->code ) ) ;
             mnemonic_dump( *ptr, ptr[1] ) ;
             fflush(stdout);
         }
@@ -338,7 +338,7 @@ int instance_go( INSTANCE * r )
 
                 if ( !proc )
                 {
-                    fprintf( stderr, "ERROR: Runtime error in %s(%d) - Unknown process\n", r->proc->name, LOCDWORD( r, PROCESS_ID ) ) ;
+                    fprintf( stderr, "ERROR: Runtime error in %s(%u) - Unknown process\n", r->proc->name, LOCDWORD( r, PROCESS_ID ) ) ;
                     exit( 0 );
                 }
 
@@ -416,7 +416,7 @@ int instance_go( INSTANCE * r )
                 p = sysproc_get( ptr[1] ) ;
                 if ( !p )
                 {
-                    fprintf( stderr, "ERROR: Runtime error in %s(%d) - Unknown system function\n", r->proc->name, LOCDWORD( r, PROCESS_ID ) ) ;
+                    fprintf( stderr, "ERROR: Runtime error in %s(%u) - Unknown system function\n", r->proc->name, LOCDWORD( r, PROCESS_ID ) ) ;
                     exit( 0 );
                 }
 
@@ -430,7 +430,7 @@ int instance_go( INSTANCE * r )
                 p = sysproc_get( ptr[1] ) ;
                 if ( !p )
                 {
-                    fprintf( stderr, "ERROR: Runtime error in %s(%d) - Unknown system process\n", r->proc->name, LOCDWORD( r, PROCESS_ID ) ) ;
+                    fprintf( stderr, "ERROR: Runtime error in %s(%u) - Unknown system process\n", r->proc->name, LOCDWORD( r, PROCESS_ID ) ) ;
                     exit( 0 );
                 }
                 r->stack_ptr -= p->params ;
@@ -499,7 +499,7 @@ int instance_go( INSTANCE * r )
                 i = instance_get( r->stack_ptr[-1] ) ;
                 if ( !i )
                 {
-                    fprintf( stderr, "ERROR: Runtime error in %s(%d) - Process %d not active\n", r->proc->name, LOCDWORD( r, PROCESS_ID ), r->stack_ptr[-1] ) ;
+                    fprintf( stderr, "ERROR: Runtime error in %s(%u) - Process %d not active\n", r->proc->name, LOCDWORD( r, PROCESS_ID ), r->stack_ptr[-1] ) ;
                     exit( 0 );
                 }
                 else
@@ -587,7 +587,7 @@ int instance_go( INSTANCE * r )
             case MN_PTR:
             case MN_PTR | MN_UNSIGNED:
             case MN_PTR | MN_FLOAT:
-                r->stack_ptr[-1] = *( int32_t * )r->stack_ptr[-1] ;
+                r->stack_ptr[-1] = *( uintptr_t * )r->stack_ptr[-1] ;
                 ptr++ ;
                 break ;
 
@@ -650,7 +650,7 @@ int instance_go( INSTANCE * r )
                 break ;
 
             case MN_STRING | MN_PTR:
-                r->stack_ptr[-1] = *( int32_t * )r->stack_ptr[-1] ;
+                r->stack_ptr[-1] = *( uintptr_t * )r->stack_ptr[-1] ;
                 string_use( r->stack_ptr[-1] );
                 ptr++ ;
                 break ;

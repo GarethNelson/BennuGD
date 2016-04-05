@@ -1,11 +1,7 @@
-sysprocs.c:458:21: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
 ../../include/loadlib.h:84:12: warning: unused function 'dlibclose' [-Wunused-function]
-2 warnings generated.
-interpreter.c:240:66: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
-interpreter.c:281:67: warning: format specifies type 'unsigned int' but the argument has type 'long' [-Wformat]
-interpreter.c:283:53: warning: format specifies type 'unsigned int' but the argument has type 'long' [-Wformat]
-interpreter.c:590:37: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
-interpreter.c:653:37: warning: cast to 'int32_t *' (aka 'int *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+1 warning generated.
+interpreter.c:590:37: warning: cast to 'uintptr_t *' (aka 'unsigned long *') from smaller integer type 'int' [-Wint-to-pointer-cast]
+interpreter.c:653:37: warning: cast to 'uintptr_t *' (aka 'unsigned long *') from smaller integer type 'int' [-Wint-to-pointer-cast]
 interpreter.c:755:37: warning: cast to 'int16_t *' (aka 'short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
 interpreter.c:760:37: warning: cast to 'uint16_t *' (aka 'unsigned short *') from smaller integer type 'int' [-Wint-to-pointer-cast]
 interpreter.c:855:38: warning: cast to 'int8_t *' (aka 'signed char *') from smaller integer type 'int' [-Wint-to-pointer-cast]
@@ -91,7 +87,7 @@ interpreter.c:1910:18: warning: cast to 'float *' from smaller integer type 'int
 interpreter.c:1916:18: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
 interpreter.c:1922:18: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
 interpreter.c:1928:18: warning: cast to 'float *' from smaller integer type 'int' [-Wint-to-pointer-cast]
-90 warnings generated.
+87 warnings generated.
 ../../common/xctype.c:157:43: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
 ../../common/xctype.c:158:68: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
 ../../common/xctype.c:159:43: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
